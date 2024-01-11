@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  text-align: center;
+  padding-top: 160px;
+
+  background: url('img/background.avif') no-repeat center/cover;
+
+/* o mesmo que o especificado acima:
+  background-image: url('https://img.freepik.com/free-photo/road-trip-concept-with-group-friends_23-2148195651.jpg?w=740&t=st=1704733993~exp=1704734593~hmac=8d0ca07e4a2df965210f9094980a9e230b0dc310ac231e3b33a4103a07d45fc3');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+
+  height: 100vh;
+
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Cinzel', serif;
+  line-height: 80px;
+}
+
+h1 span {
+  color: #c92974;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 72px;
+  line-height: 24px;
+}
+
+a {
+  padding: 12px 32px;
+  border-radius: 24px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  transition: ease-in-out 0.15s;
+}
+
+.btn-trip {
+  background-color: #c92974;
+  color: white;
+}
+
+a:hover {
+  background-color: #d9d9d9;
+}
+
+.btn-trip:hover {
+  background-color: #e09dbc;
+  color: #ac135a;
+}
